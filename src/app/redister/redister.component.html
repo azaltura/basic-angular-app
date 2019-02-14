@@ -1,0 +1,19 @@
+<form #myForm>
+  <div>
+    <label>Name:
+      <input [(ngModel)]="userModel.name" placeholder="name">
+    </label>
+    <label>Age:
+        <input [(ngModel)]="userModel.age" placeholder="age">
+    </label>
+  </div>
+    <label>Gender:
+        <input [(ngModel)]="userModel.gender" placeholder="gender">
+    </label>
+    <label>cellphone:
+        <input [(ngModel)]="userModel.cell" placeholder="cellphone">
+     </label>
+  <div>
+    <button [disabled]="!myForm.form.invalid" (click)="registerUser(f)">Register</button>  
+  </div>
+</form>
