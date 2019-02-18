@@ -1,3 +1,8 @@
-<p>
-  member works!
-</p>
+<div *ngIf= 'memberData'>
+  <div *ngFor= 'let member of memberData'>
+    <p>id: {{member.id}}</p>
+    <p>budget: {{member.budgetUSD | currency }}</p>
+    <p>totalProducts: {{member.totalProducts}}</p>
+    <p>lastPurvhese: {{member.lastPurvhese}}</p>
+  </div>
+</div>

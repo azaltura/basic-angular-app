@@ -1,0 +1,16 @@
+{
+    "members": [
+        {
+            "id":1,
+            "budgetUSD": 100,
+            "totalProducts": 3,
+            "lastPurvhese": 151667448000
+        },
+        {
+            "id":2,
+            "budgetUSD": 250,
+            "totalProducts": 3,
+            "lastPurvhese": 151667448000
+        }
+    ]
+}
