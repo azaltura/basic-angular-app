@@ -8,6 +8,7 @@ import { UserModel } from '../models/user.model';
 })
 export class RedisterComponent implements OnInit {
   userModel: UserModel;
+  myform;
 
 
   constructor() { 
@@ -17,7 +18,7 @@ export class RedisterComponent implements OnInit {
   ngOnInit() {
 
   }
-  registerUser(f) {
+  registerUser() {
     /*
     this.userName = f.userName.value;
     this.userAge = f.userAge.value;
